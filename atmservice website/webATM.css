@@ -1,0 +1,174 @@
+body {
+  /*background-image: url('bg1.png');*/
+  background-image: url('WALLPAPER.jpeg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+#title{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 30px;
+    color : rgba(0, 21, 128, 0.868);
+}
+h2{
+    text-align: center;
+    margin-bottom: 0px;
+}
+img {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+    height: 400px;
+    width: 350px;
+    border: 5px solid black;
+}
+.img_dec{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+    height: 400px;
+    width: 350px;
+    border: 5px solid black;
+}
+#button{
+    width: 350px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+button:hover {
+  opacity: 0.8;
+  border-radius: 10px ;
+}
+button {
+  background-color: #038756;
+  color: white;
+  font-weight: bold;
+  padding: 12px 18px;
+  margin: 8px 8px;
+  border: none;
+  cursor: pointer;
+  border-radius: 7px;
+  width: 92px;
+  height: 40px;
+}
+#img_desc{
+    text-align: center;
+    /*color: rgba(255, 0, 0, 0.715);*/
+    color : black;
+}
+
+/* CSS for timer starts here*/
+.base-timer {
+    position: relative;
+    text-align: center;
+  }
+
+  #timer{
+    color:rgba(208, 5, 5, 0.773);
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  .base-timer__circle {
+    fill: none;
+    stroke: none;
+  }
+  
+  .base-timer__path-elapsed {
+    stroke-width: 7px;
+    stroke: grey;
+  }
+/* CSS for timer ends here*/
+
+.p_title{
+  width: 150px;
+  font-size: 20px;
+  text-align: center;
+  color: rgba(0, 21, 128, 0.868);
+  margin-left: 25px;
+  margin-top: 25px;
+  border: 3px solid rgba(0, 21, 128, 0.868);
+  border-radius: 10px;
+}
+
+/* cSS for block page*/
+.block{
+  text-align: center;
+  vertical-align: middle;
+  margin: auto;
+  margin-top: 9%;
+  font-size: 25px;
+}
+#b_title{
+  font-size: 60px;
+  font-weight: bolder;
+  color: rgba(158, 2, 2, 0.91);
+}
+.rules{
+ font-size: 18px;
+ margin-top: 250px;
+ display: inline-block;
+position: absolute;
+left: 0px;
+width: 60%;
+padding-left: 15px;
+}
+.contact{
+ /* width: 230px;
+ margin: auto;*/
+font-size: 20px;
+font-weight: bold;
+text-align: right;
+padding-right: 15px;
+color: rgba(2, 2, 149, 0.852);
+display: inline-block;
+position: absolute;
+right: 10px;
+width: 20%;
+margin-top: 250px;
+}
+
+/* CSS for withdrawal page*/
+#wdPageTitle{
+  font-size: 60px;
+  color: #038756;
+  text-align: center;
+  font-weight: bold;
+  margin : 0px
+}
+#wd{
+  margin-top: 40px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.container{
+font-size: 25px;
+}
+#wdbutton{
+  text-align: center;
+  margin-top: 30px;
+}
+input[type=password] {
+  width: 25%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+#wdBlock{
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  color: red;
+}
+#amt{
+  font-size: 25px;
+  font-weight: bold;
+  color: #038756;
+  text-align: center;
+}

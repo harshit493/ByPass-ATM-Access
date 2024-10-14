@@ -1,0 +1,59 @@
+<!-- need to import fonts-->
+<!-- check for image then timer part-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebATM</title>
+    <link rel="stylesheet" href="webATM.css">
+    <script src="webATM.js"></script>
+    <script src="log.php"></script>
+</head>
+
+<body>
+    <div>
+        <h3 id="title">Bypass ATM Access </h3>
+    </div>
+    <div>
+        <p>
+        <h2>Image of the person requesting permission to withdraw money.</h2>
+        </p>
+        <img src="image.jpg" alt="Can't load the image">
+        <!-- need to insert img from the database-->
+        <p id="img_desc">*Take the requried action as needed.if you unable to recognize the person, do not allow to
+            withdraw money to avoid any financial loss.<br>*Deny the permission if you are unable to see the image of
+            the person.</p>
+    </div>
+    <div id="button">
+        <a href="withdraw.html"><button>Withdraw</button></a>
+        <a href="deny.html"><button>Deny</button></a>
+        <a href="block.html"><button>Block</button></a>
+    </div>
+
+    <div class="base-timer">
+        <p><h3><b>Site become inactive after</b></h3></p>
+        <div class="base-timer", id="timer">
+            <!--<svg class="base-timer__svg" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                  <g class="base-timer__circle">
+                    <circle class="base-timer__path-elapsed" cx="50" cy="50" r="45" />
+                  </g>
+                </svg>-->
+            <span><!-- Remaining time label --> </span><b> min</b>
+        </div>
+    </div>
+
+    <div>
+        <p>
+            <li>Page becomes inactive after the timer stops.</li>
+            <li>Allowing to withdraw will debit money fromm your account.</li>
+            <li>Denying the request will only ignore the request. It wont take any action against the person.</li>
+            <li>If you do not recognize the person you can block the request and card temporaryily from here and report
+                the person to the authority and take required action against them.</li>
+            <li>Act wisely to avoid any financial loss.</li>
+        </p>
+    </div>
+</body>
+
+</html>
